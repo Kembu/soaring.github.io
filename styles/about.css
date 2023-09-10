@@ -1,0 +1,106 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background colors and text colors */
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #55c7ca; /* Pastel Turquoise */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Nav buttons below the logo */
+    align-items: center; /* Center the logo and nav buttons vertically */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Stack the nav buttons for small screens */
+    align-items: center; /* Center the nav buttons horizontally */
+}
+
+nav ul li {
+    margin-bottom: 10px; /* Add space between nav items */
+}
+
+/* Style the navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Darker background color on hover */
+}
+
+/* Style the page content */
+#about-us {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left; /* Align text to the left */
+}
+
+#about-us h2 {
+    font-size: 28px; /* Larger font size */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about-us h3 {
+    font-size: 24px; /* Larger font size */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#about-us p {
+    font-size: 18px; /* Larger font size */
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Style the list items in the long-term goals section */
+#about-us ul {
+    margin-top: 15px;
+}
+
+#about-us ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Style the footer */
+footer {
+    background-color: #55c7ca; /* Pastel Turquoise */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
